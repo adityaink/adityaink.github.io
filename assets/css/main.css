@@ -244,6 +244,9 @@ input, select, textarea {
 /* Container */
 
 	.container {
+		display: flex;
+    		justify-content: flex-start; /* Keep content aligned to the left */
+    		margin-left: auto; /* Add margin to push the container to the right */
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 100%;
